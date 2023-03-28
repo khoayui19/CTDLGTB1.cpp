@@ -1,0 +1,44 @@
+# CTDLGTB1.cpp
+#include<stdio.h>
+#include<conio.h>
+Struct SoTietKiem
+{
+    char Maso[5];
+    char loaitietkiem[10];
+    char Hotenkhachhang[30];
+    Chungminhnhandan int;
+    ngày ngaymoso;
+    Phao Sotiengui;
+}
+typedef Struct Sotietkiem STK;
+void NhapSotietkiem(STK&s)
+{
+     printf("\nNhap ma so: ");
+     scanf("%d", &s.Maso);
+     printf("\nNhap loai tiet kiem: ");
+     scanf("%d", &s.Loaitietkiem);
+     printf("\nNhap ho ten khach hang : ");
+     scanf("%d", &s.Hotenkhachhang);
+     printf("\nNhap chung minh nhan dan: ");
+     scanf("%d", &s.Chungminhnhandan);
+     printf("\nNhap ngay mo so: ");
+     scanf("%d", &s.Ngaymoso);
+     printf("\nNhap so tien gui : ");
+     scanf("%d", &s.Sotiengui);
+}
+void XuatSoTietKiem(STK s)
+{
+printf("\n%d",s.Maso);
+printf("\n%d",s.Loaitietkiem);
+printf("\n%d",s.Hotenkhachhang);
+printf("\n%d",s.Chungminhnhandan);
+printf("\n%d",s.Ngaymoso);
+printf("\n%d",s.Sotiengui);
+}
+int chính ()
+{
+      STK s;
+      NhapSoTietKiem(s);
+      XuatSoTietKiem(s);
+      trả về 0;
+}
